@@ -139,10 +139,10 @@ contract Vault {
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.26" (or another compatible version), and then click on the "Compile degen.sol" button.
 
 Once the code is compiled, you can tap on environment button and select "Injected Provider - MetaMask" then connect your metamask account to remix id.
-After connecting the wallet deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar it will ask for some avax for that , allow it. Select the "degen" contract from the dropdown menu, and then click on the "Deploy" button.
+After connecting the wallet deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar it will ask you to connect your metamask wallet for that , allow it. Select the "radiant_points" contract from the dropdown menu, and then click on the "Deploy" button.
+After deploying copy the "radiant_points" contract address and during deploy of second contrct that is "vault", and paste that address and then click on deploy.
 
-You can verify your contract using etherscan to check all its functinality and track its all transaction on snowtracer url: https://testnet.snowtrace.io/
-
+After deploying both contracts and linking it with each other we can interact with contract and use its different function.
 ## Authors
 
 Saurabh Mishra  
